@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <script type="text/javascript" href="index.js" src="index.js"></script>
+    <title>Empresa</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Cadastro</h1>
+    </div>
+    <div id="corpao">
+        <div class="container-logo">
+            <div class="thumbnail-logo">
+              <h1 class="logo__text">AGROYELLOW</h1>
+            </div>
+            <div class="thumbnail-content">
+              <h1 class="heading-primary">Bem Vindo ao AgroYellow.</h1>
+              <h2 class="heading-secondary">Está preparado para se juntar a nós?</h2>
+            </div>
+          </div>
+        <div id="form-group">
+            <label for="username">Nome da Empresa</label>
+            <input class="form-control" id="nome" name="nome" type="text" placeholder="Digite seu nome" onkeypress="return ApenasLetras(event,this); required">
+            <label for="CNPJ">CNPJ</label>
+            <input class="form-control" type="text" name="cnpj" id="cnpj" onkeyup="FormataCnpj(this,event)" ng-model="cadastro.cnpj" placeholder="Digite seu CNPJ" required>
+        </div>
+
+        <div id="form-group">
+            <label for="email">E-mail:</label>
+            <input class="form-control" type="text" name="email" id="msgemail" onblur="validacaoEmail(f1.email)"  placeholder="example@example.com" required>
+            <label for="phone">Telefone</label>
+            <input class="form-control" type="text" name="telefone" id="telefone" placeholder="Digite seu telefone" required>
+        </div>
+
+        <div id="form-group">
+            <label for="password">Senha</label>
+            <input class="form-control" type="password" id="senha" placeholder="Digite sua senha" required>
+            <label for="passwordRepeat">Confirmar senha </label>
+            <input class="form-control" type="password" id="confsenha" placeholder="Confirme sua senha" required>
+        </div>
+        <button style="margin-top:10%; margin-left: 1%; padding-left:5%; padding-right:5%;"onclick="validadorEmpresa()">Cadastrar-se</button>
+        
+    </div><br><br>
+    
+    <div id="roote">
+        
+        <hr> 
+        <p >já tem cadastro? fazer <a href="Login.html">Login</a></p>
+
+        <button onclick="apagar()">apagar</button>
+    </div>
+</body>
+</html>
