@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-$cx = mysqli_connect("localhost", "root", "");
-$db = mysqli_select_db($cx, "conexao");
+//$cx = mysqli_connect("localhost", "root", "");
+//$db = mysqli_select_db($cx, "conexao");
 ?>
 <!DOCTYPE html>
 <html>
