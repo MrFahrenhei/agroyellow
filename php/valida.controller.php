@@ -1,5 +1,6 @@
 <?php
   session_start();
+  error_reporting(0);
 	include("conexao.class.php");
   $nome = preg_replace('/[À-Úà-ú]/','', $_POST['nome']);
   $senha =  addslashes ($_POST['senha']); 
