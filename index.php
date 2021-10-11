@@ -25,6 +25,7 @@ session_start();
     <div class="container signin">
         <?php include "modal.php" ;?>
     </div>
+    <br>
 </div>
    
 </body>
