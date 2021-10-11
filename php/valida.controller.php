@@ -12,8 +12,26 @@
 if($stm->rowCount()>0){
     $mensagem = 'Bem vindo';
     foreach ($stm as $key => $value) {
-    echo '<div class="loader">'.$mensagem.'</div>';
-    header("refresh: 1; ../home.php?signin=success");
+      echo '
+      <div id="mensagem">
+        <style>
+              body{
+                background: #242424;
+              }
+              h1{
+                text-align: justify;
+                letter-spacing: 3px;
+              }
+              #mensagem{
+                position: absolute;
+                top: 45%;
+                left: 45%;
+                color:white;
+              }
+        </style>
+          <h1>'.$mensagem.'<h1>
+      </div>';
+    header("refresh: 1.5; ../home.php?signin=success");
 
         $id = $value->id;
         $nome = $value->nome;
@@ -38,8 +56,26 @@ if($stm->rowCount()>0){
     $stm->execute();
     if($stm->rowCount()>0){
         foreach ($stm as $key => $value) {
-        echo '<div class="loader">'.$mensagem.'</div>';
-        header("refresh: 1; ../home.php?signin=success");
+          echo '
+          <div id="mensagem">
+            <style>
+                  body{
+                    background: #242424;
+                  }
+                  h1{
+                    text-align: justify;
+                    letter-spacing: 3px;
+                  }
+                  #mensagem{
+                    position: absolute;
+                    top: 45%;
+                    left: 45%;
+                    color:white;
+                  }
+            </style>
+              <h1>'.$mensagem.'<h1>
+          </div>';
+        header("refresh: 1.5; ../home.php?signin=success");
 
           $id = $value->id;
           $nome = $value->nome;
