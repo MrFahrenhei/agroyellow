@@ -54,7 +54,7 @@ $db = mysqli_select_db($cx, "conexao");
     
   </form> 
   <div class="container signin">
-       <?php include "modal.php" ;?> 
+       <?php  include "modal.php" ;?> 
   </div>
 </body>
 </html>
