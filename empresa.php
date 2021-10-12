@@ -45,8 +45,11 @@ $db = mysqli_select_db($cx, "conexao");
 		    		}
 		    </script>
       <hr>
-  
-      <p>Por estar criando uma conta, você concorda com os nossos <a href="#">Termos & Privacidades</a>.</p>
+      <?php 
+        include "modalterms.php";
+        
+        ?>
+   
       <button type="submit" class="registerbtn">Registrar</button>
       
     </div>
