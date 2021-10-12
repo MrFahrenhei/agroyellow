@@ -1,5 +1,6 @@
 
 <link rel="stylesheet" href="styles/navbar.css">
+<h1><img src="logo.png"></h1>
 <ul>
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">Geral</a></li>

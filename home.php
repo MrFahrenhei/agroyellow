@@ -25,6 +25,9 @@ if (!isset($_SESSION['nome'])) {
         <title>HOME</title>
     </head>
     </body>
+    <header>
         <?php include "navbar.php"; ?>
+    </header>
+
     </body>
 </html>
