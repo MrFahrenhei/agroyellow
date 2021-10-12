@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="styles/modaltermos.css">
 <p>Por estar criando uma conta, você concorda com os nossos <a  id="botaoTermos">Termos & Privacidades</a>  </p>
 
 <!-- The Modal -->
