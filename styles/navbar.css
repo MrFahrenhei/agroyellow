@@ -14,6 +14,7 @@ ul {
   }
   
   li {
+    display:inline;
     float: left;
     border-right: 1px solid #bbb;
   }
@@ -36,3 +37,9 @@ li:last-child{
   .active {
     background-color: #ffd300;
   }
+img{
+  margin: 0;
+  padding:0;
+  width:5%;
+  height: auto;
+}
