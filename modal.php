@@ -12,10 +12,10 @@
             <label><b>Senha</b></label>
             <input type="password" placeholder="Insira sua senha" name="senha" required>
             <button type="submit">Login</button>
+
+            <button onclick="document.getElementById('modal').style.display='none'" class="cancelbtn">Cancelar</button>
         </div>
-        <div class="container-modal" style="background-color:#f1f1f1">
-<button onclick="document.getElementById('modal').style.display='none'" class="cancelbtn">Cancelar</button>
-        </div>
+        <br>
     </form>
 </div>
 </form>

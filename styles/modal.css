@@ -37,7 +37,10 @@ button {
 
   
   .container-modal {
-    padding: 10% 25% 5% 25%;
+    margin: 10% 0% 10% 14%;
+    padding: 10% 10% 1% 10%;
+    background-color:#f1f1f1;
+    width: 50%;
   }
   
   span.psw {
@@ -62,7 +65,7 @@ button {
   
   .modal-content {
     background-color: #fefefe;
-    margin: 10% 0% 10% 0%; 
+    margin: 100% 100% 100% 0%; 
     border: 1px solid #888;
     width: 80%; 
   }
