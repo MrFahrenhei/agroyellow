@@ -8,6 +8,7 @@ $db = mysqli_select_db($cx, "conexao");
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/css.css">
     <script type="text/javascript" src="index.js"></script>
     <title>Login </title>
