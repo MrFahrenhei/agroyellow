@@ -1,5 +1,5 @@
  /* The Modal (background) */
- .modals {
+ .modalterms {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -18,7 +18,6 @@
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     width: 85%; /* Could be more or less, depending on screen size */
- 
   }
    .qualquercoisa{
     padding: 2%;
@@ -26,16 +25,19 @@
     border: 1px solid black;
     width: 92%;
     position: relative;
+    
+  
   }
   /* The Close Button */
   .closer {
-    position: relative;
+    position: absolute;
     border: none;
     margin: 0% 0% 0% 0%;
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
+    
     
   }
 
@@ -61,7 +63,7 @@
   }
 
   @media screen and (max-width: 300px) {
-    span.psw {
+    span.psw{
        display: block;
        float: none;
     }
