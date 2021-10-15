@@ -9,6 +9,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/test.css">
+    <link rel="shortcut icon" href="src/icon.ico"/> 
     <script type="text/javascript" src="index.js"></script>
     <title>Registre-se</title>
 </head>
