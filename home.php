@@ -21,6 +21,7 @@ if (!isset($_SESSION['nome'])) {
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/test.css">
         <link rel="stylesheet" href="styles/css.css">
+        <link rel="shortcut icon" href="src/icon.ico"/> 
         <script type="text/javascript" href="index.js" src="index.js"></script>
         <title>HOME</title>
     </head>

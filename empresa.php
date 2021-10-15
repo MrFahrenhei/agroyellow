@@ -8,6 +8,7 @@ $db = mysqli_select_db($cx, "conexao");
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="src/icon.ico"/> 
     <link rel="stylesheet" href="styles/test.css">
     <script type="text/javascript" href="index.js" src="index.js"></script>
     <title>Registrar sua Empresa</title>
