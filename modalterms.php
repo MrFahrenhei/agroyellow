@@ -29,10 +29,7 @@ function myFunction() {
   window.onclick = function(event) {
     if (event.target == modalterms) {
       modalterms.style.display = "none";
-      object.onclick = function(){
-      checkbox = checked;
-      console.log(checkbox);
-      }
+
     }
   
   }
