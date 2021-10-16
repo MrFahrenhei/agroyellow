@@ -2,33 +2,43 @@
 
 <div>
 
-<input type="checkbox" id="scales" name="scales" value="on">
+<input type="checkbox" id="scales" name="scales" value="on" >
 
 </div>
 <p>Por estar criando uma conta, você concorda com os nossos <a  onclick="document.getElementById('modalterms').style.display='block'"   style="width:auto;"> Termos & Privacidades</a> </p>
 
 
-    
-
 <div id="modalterms" class="modalterms">
-    <form class="modal-content animate2" action="/action_page.php" method="post">
         <div class="modal-contents">
             <span class="closer">&times;</span>
             <?php  include "Terms.php" ;?> 
-           <center> <button onclick="document.getElementById('modalterms').style.display='none'"  class="termos">Li e Concordo com os Termos</button> </center>
+            <button onclick="document.getElementById('modalterms').style.display='none'" >Li e Concordo com os Termos</button>
         </div>
         <br>
-    </form>
 </div>
-
 <script>
-  let modalterms = document.getElementById("modalterms");
+  document.getElementById('modalterms').onclick = function() {myFunction()};
+  var scales = document.getElementById('scales');
 
+function myFunction() {
+	console.log("teste");
+	console.log(scales.checked);
+	scales.checked = true;
+}
 
   window.onclick = function(event) {
     if (event.target == modalterms) {
       modalterms.style.display = "none";
+      object.onclick = function(){
+      checkbox = checked;
+      console.log(checkbox);
+      }
     }
+    
+      
+      
+      
+    
   }
 </script>
 
