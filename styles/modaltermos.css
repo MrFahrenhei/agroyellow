@@ -19,15 +19,7 @@
     padding: 20px;
     width: 85%; /* Could be more or less, depending on screen size */
   }
-   .qualquercoisa{
-    padding: 2%;
-    margin: 2% 2% 2% 2%;
-    border: 1px solid black;
-    width: 92%;
-    position: relative;
-    
-  
-  }
+   
   /* The Close Button */
   .closer {
     position: absolute;
@@ -37,8 +29,18 @@
     float: left;
     font-size: 28px;
     font-weight: bold;
-    
-    
+
+  }
+  .qualquercoisa{
+    padding: 2%;
+    margin: 2% 2% 2% 2%;
+    border: 1px solid black;
+    width: 92%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  
   }
 
   .closer:hover,
@@ -47,27 +49,3 @@
     text-decoration: none;
     cursor: pointer;
   } 
-  .animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
-  }
-  
-    @-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
-  }
-    
-  @keyframes animatezoom {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
-  }
-
-  @media screen and (max-width: 300px) {
-    span.psw{
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-  }

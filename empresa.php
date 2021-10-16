@@ -47,13 +47,15 @@ $db = mysqli_select_db($cx, "conexao");
 					}
 				}
 			</script>
+			<?php include "modalterms.php"; ?>
 			<hr>
 			<button type="submit" class="registerbtn">Registrar</button>
 		</div>
 	</form>
 	<div class="container signin">
-		<?php include "modalterms.php"; ?>
+		
 		<?php include "modal.php"; ?>
+		
 	</div>
 </body>
 
