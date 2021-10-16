@@ -34,11 +34,7 @@ function myFunction() {
       console.log(checkbox);
       }
     }
-    
-      
-      
-      
-    
+  
   }
 </script>
 
