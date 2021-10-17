@@ -14,7 +14,6 @@ $db = mysqli_select_db($cx, "conexao");
 	<script type="text/javascript" href="index.js" src="index.js"></script>
 	<title>Registrar sua Empresa</title>
 </head>
-
 <body>
 	<form method="POST" action="php/empresa.controller.php">
 		<div class="container">
@@ -38,6 +37,7 @@ $db = mysqli_select_db($cx, "conexao");
 			<input type="password" id="E_senha" placeholder="Digite sua senha" name="senha" required>
 			<label for="password">Confirmar senha </label>
 			<input type="password" id="E_senha" placeholder="Confirme sua senha" name="confirma_senha" oninput="validaSenha(this)" required>
+	
 			<script>
 				function validaSenha(input) {
 					if (input.value != document.getElementById('E_senha').value) {
@@ -47,12 +47,12 @@ $db = mysqli_select_db($cx, "conexao");
 					}
 				}
 			</script>
-				<?php include "modalterms.php"; ?>
+	<?php include "modalterms.php"; ?>	
 			<hr>
 			<button type="submit" class="registerbtn">Registrar</button>
 		</div>
-	
 	</form>
+	
 	<div class="container signin">
 		
 		<?php include "modal.php"; ?>

@@ -1,21 +1,21 @@
 <link rel="stylesheet" href="styles/modaltermos.css">
 
+<div class="bane"> 
 <div>
 <p> 
-	<input type="checkbox" id="scales" name="scales" value="on" required>
+	<input type="checkbox" id="scales" name="scales" required>
   Por estar criando uma conta, você concorda com os nossos <a onclick="document.getElementById('modalterms').style.display='block'" style="width:auto;"> Termos & Privacidades</a> </p>
 </div>
-
-
-
 <div id="modalterms" class="modalterms">
 	<div class="modal-contents">
 		<span class="closer">&times;</span>
 		<?php include "Terms.php"; ?>
-		<button onclick="document.getElementById('modalterms').style.display='none'"  id="btn">Li e Concordo com os Termos</button>
+		<span type="submit" class="submit" id="btn">Li e Concordo com os Termos</span> 
 	</div>
 	<br>
 </div>
+</div>
+
 <script>
 
  var span = document.getElementsByClassName('closer')[0];

@@ -1,5 +1,5 @@
 
-<form > 
+
 <div class="qualquercoisa">
           
     <p> <center>  CONSENTIMENTO PARA TRATAMENTO DE DADOS PESSOAIS LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS – LGPD  </center><br> <br>
@@ -33,4 +33,3 @@
       
     </p>
 </div>
-</form>

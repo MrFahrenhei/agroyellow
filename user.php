@@ -45,9 +45,9 @@ session_start();
 		    			}
 		    		}
 		    </script>
+        <?php include "modalterms.php"; ?>
       <hr>
   
-      <p>Por estar criando uma conta, você concorda com os nossos <a href="#">Termos & Privacidades</a>.</p>
       <button type="submit" class="registerbtn">Registrar</button>
       
     </div>
