@@ -26,6 +26,5 @@ window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-    
 } //fecha o modal box quando clica fora
 </script>

@@ -2,7 +2,7 @@
 
 <div>
 <p> 
-	<input type="checkbox" id="scales" name="scales" value="on">
+	<input type="checkbox" id="scales" name="scales" value="on" required>
   Por estar criando uma conta, você concorda com os nossos <a onclick="document.getElementById('modalterms').style.display='block'" style="width:auto;"> Termos & Privacidades</a> </p>
 </div>
 

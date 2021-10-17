@@ -40,17 +40,18 @@ $db = mysqli_select_db($cx, "conexao");
 			<input type="password" id="E_senha" placeholder="Confirme sua senha" name="confirma_senha" oninput="validaSenha(this)" required>
 			<script>
 				function validaSenha(input) {
-					if (input.value != document.getElementById('senha').value) {
+					if (input.value != document.getElementById('E_senha').value) {
 						input.setCustomValidity('As senhas sao diferentes');
 					} else {
 						input.setCustomValidity('');
 					}
 				}
 			</script>
-			<?php include "modalterms.php"; ?>
+				<?php include "modalterms.php"; ?>
 			<hr>
 			<button type="submit" class="registerbtn">Registrar</button>
 		</div>
+	
 	</form>
 	<div class="container signin">
 		
