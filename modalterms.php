@@ -31,8 +31,8 @@
   btn.onclick = function() {
     modalterms.style.display = "none";
     console.log("teste");
-		console.log(scales.checked);
-		scales.checked = true;
+	console.log(scales.checked);
+	scales.checked = true;
 }
 
 
