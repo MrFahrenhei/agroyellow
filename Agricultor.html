@@ -1,49 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" href="index.js" src="index.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    <center> Cadastra-se
-        <br>
-        <br>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script type="text/javascript" href="index.js" src="index.js"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<center>
+			Cadastra-se
+			<br />
+			<br />
 
-    Nome <br>
-    <input id="nomeagr" name="nomeagr" type="text" placeholder="Digite seu nome" class="campo" onkeypress="return ApenasLetras(event,this);">
-    <br>
-    <br>
-    <form name="f1">
-        E-mail: <br>
-        <input type="text" name="email" id="msgemailagr" onblur="validacaoEmail1(f1.email)"  maxlength="30" size='40' placeholder="example@example.com">
-        </form>
-        <br>
-    Telefone <br>
-    <input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone " maxlength="15" />
-    <br>
-    <br>
-    Senha <br>
-    <input type="password" id="senhaagr" size="5" maxlength="10" />
-    <br>
-    <br>
-    Confirmar senha <br>
-    <input type="password" id="confsenhaagr" size="5" maxlength="10" />
-    <br>
-    <br>
-    <button onclick="validadorAgricultor()">Cadastrar-se</button>
-    <br>
-    <br>
-    <br>
-      "já tem cadastro?"
-    "Basta fazer login"
-    <br>
-    <br>
-    <a href="Login Agricultor.html"><button>Login</button></a>
-    <button onclick="apagar()">apagar</button>
-</center>
-
-</body>
+			Nome <br />
+			<input
+				id="nomeagr"
+				name="nomeagr"
+				type="text"
+				placeholder="Digite seu nome"
+				class="campo"
+				onkeypress="return ApenasLetras(event,this);"
+			/>
+			<br />
+			<br />
+			<form name="f1">
+				E-mail: <br />
+				<input
+					type="text"
+					name="email"
+					id="msgemailagr"
+					onblur="validacaoEmail1(f1.email)"
+					maxlength="30"
+					size="40"
+					placeholder="example@example.com"
+				/>
+			</form>
+			<br />
+			Telefone <br />
+			<input
+				type="text"
+				name="telefone"
+				id="telefone"
+				placeholder="Digite seu telefone "
+				maxlength="15"
+			/>
+			<br />
+			<br />
+			Senha <br />
+			<input type="password" id="senhaagr" size="5" maxlength="10" />
+			<br />
+			<br />
+			Confirmar senha <br />
+			<input type="password" id="confsenhaagr" size="5" maxlength="10" />
+			<br />
+			<br />
+			<button onclick="validadorAgricultor()">Cadastrar-se</button>
+			<br />
+			<br />
+			<br />
+			"já tem cadastro?" "Basta fazer login"
+			<br />
+			<br />
+			<a href="Login Agricultor.html"><button>Login</button></a>
+			<button onclick="apagar()">apagar</button>
+		</center>
+	</body>
 </html>
