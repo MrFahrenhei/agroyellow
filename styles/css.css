@@ -4,7 +4,7 @@
     letter-spacing: 3px;
 }
 body{
-    background: #c5c5c5;
+    background: #002848;
 }
 #corpao{
     margin: 15% 15% 0% 15%;
@@ -31,6 +31,7 @@ label, p, a{
 button{
     padding:5% 0% 5% 0% ;
     margin: 1%;
+    border-radius: 5px;
 }
 
 a{
