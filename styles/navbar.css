@@ -6,6 +6,7 @@ body{
 
 #navPrincipal{
   text-decoration: none;
+  background-color:#004f8f;
   
 }
 #menuMaior .canto input[type=text] {
@@ -23,6 +24,9 @@ body{
   width: 16.6%; 
   text-align: center; 
 }
+#menuMaior a:hover {
+  background-color: #FF9F1C;
+}
 .canto{
   margin: 0% 0% 0% 0%;
   padding:1% 0% 1% 0%;
@@ -32,6 +36,9 @@ body{
 #menuMenor{
   background-color: #55ad33;
   display:flex;
+}
+#menuMenor a:hover{
+  background-color: #366e20;
 }
 #menuMenor ul {
   width: 100%;
@@ -54,6 +61,7 @@ body{
   display:block;
   text-decoration: none;
   color:white;
+  padding: 5px 25px;
 }
 #menuMenor a:hover{
   color:black;
@@ -62,6 +70,10 @@ li:last-child{
   border-right: none;
 }
  
+img{
+  width: 10%;
+  padding: 0% 2% 0% 1%;
+}
 
 
 /*

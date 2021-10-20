@@ -4,7 +4,7 @@
 <div id="navPrincipal" class="menuContainer fixed">
   <div id="menuMaior">
       <div class="canto">
-          <a href="">Logo</a>
+          <img src="src/logo.png"></img>
           <input type="text" placeholder="Procurar..">
           <a href="#home">Compras</a>
           <a href="#contact">Vender</a>
