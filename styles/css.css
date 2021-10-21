@@ -60,9 +60,143 @@ hr {
     padding:0%;
     margin:0%;
 }
-#row {
-    width: 100%;
-    display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.anuncios {
+    border:solid #484848;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin:4px
+   }
+.row {
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px
+}
+
+.containerGeral {
+ padding-right:15px;
+ padding-left:15px;
+ margin-right:auto;
+ margin-left:auto;
+ width:98%;
+ min-height:100vh;
+}
+
+/* CSS auxiliar*/
+.mt-1 {
+    margin-top:.25rem!important
+}
+.mt-2{
+ margin-top:.5rem!important
+}
+.mt-3 {
+ margin-top:1rem!important
+}
+.mt-4 {
+    margin-top:1.5rem!important
+}
+
+.px-1 {
+    padding-right:.25rem!important;
+    padding-left:.25rem!important;
+}
+
+
+
+/* CSS Propriedades axuliar col-home*/
+div.col-home {
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:160px;
+    border-right:1px solid #55ad33;
+    margin:20px 0
+}
+.col-home{
+ -webkit-box-flex:0;
+ -ms-flex:0 0 20%;
+ max-width:20%;
+ flex:0 0 20%;
+ position:relative;
+ width:100%;
+ min-height:1px;
+ padding-right:15px;
+ padding-left:15px;
+}
+div.col-home img {
+    max-height:45px;
+    width:auto;
+}
+div.col-home.b-none {
+    border:none;
+   }
+div.col-home a {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    margin:18px 0;
+    position:relative;
+    color:#00ae1b;
+    text-align:center;
+    font-size:19px;
+    font-weight:600;
+    line-height:22px;
+}
+/*CSS APENAS PARA DEIXAR OS BOTÕES UM AÇO*/
+div.col-home .anuncios {
+    background-color:#55ad33;
+    color:#fff;
+    border:none
+}
+div.col-home .publicar {
+    background-color:#ff8306;
+    color:#fff;
+    border:none
+}   
+
+
+
+
+
+
+
+
+
+/* CSS Formatação*/
+
+.flex-column {
+    -ms-flex-direction:column!important;
+    flex-direction:column!important
+}
+.justify-content-start{
+    -ms-flex-pack:start!important;
+    justify-content:flex-start!important
+}
+.justify-content-end {
+    -ms-flex-pack:end!important;
+    justify-content:flex-end!important
+}
+.justify-content-center {
+    -ms-flex-pack:center!important;
+    justify-content:center!important
+}
+.justify-content-between {
+    -ms-flex-pack:justify!important;
+    justify-content:space-between!important
+}
+.align-items-center {
+    -ms-flex-align:center!important;
+    align-items:center!important
+}
+.align-self-center {
+    -ms-flex-item-align:center!important;
+    align-self:center!important
+}
+.position-relative {
+     position:relative!important
 }

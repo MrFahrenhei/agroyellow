@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="styles/navbar.css">
 
 <div id="navPrincipal" class="menuContainer fixed">
-  <div id="menuMaior">
+  <nav id="menuMaior">
       <div class="canto">
           <img src="src/logo.png"></img>
           <input type="text" placeholder="Procurar..">
@@ -14,12 +14,12 @@
             echo'<a style="background-color:red; border-radius:5px; !important" href="logout.php">Sair</a>';}
           ?>
       </div>
-  </div>
-  <div id="menuMenor">
+  </nav>
+  <nav id="menuMenor">
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#contact">Contato</a></li>
         <li><a href="#about">Sobre</a></li>
       </ul>
-  </div>
+  </nav>
 </div>
