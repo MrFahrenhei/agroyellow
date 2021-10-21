@@ -1,7 +1,7 @@
 :root{
     margin: 0%;
     padding: 0%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 body{
     background: #002848;
@@ -32,11 +32,14 @@ button{
     padding:5% 0% 5% 0% ;
     margin: 1%;
     border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
 }
 
 a{
     color:darkblue;
     text-decoration: none;
+    
 }
 
 label{
@@ -125,6 +128,10 @@ div.col-home {
  padding-right:15px;
  padding-left:15px;
 }
+div.row-home {
+    width:100%;
+    border-top:1px solid #55ad33
+   }
 div.col-home img {
     max-height:45px;
     width:auto;
@@ -151,13 +158,42 @@ div.col-home a {
 div.col-home .anuncios {
     background-color:#55ad33;
     color:#fff;
-    border:none
+    border:none;
 }
 div.col-home .publicar {
     background-color:#ff8306;
     color:#fff;
-    border:none
+    border:none;
 }   
+div.col-home.b-m-none {
+    border:none!important
+}
+div.col-home.b-left {
+    border-left:none!important
+}
+.hidden-mobile {
+    display:none!important;
+    visibility:hidden!important
+}
+.visible-mobile {
+    display:none!important;
+    visibility:hidden!important
+}
+.visible-mobile {
+    display:inherit!important;
+    visibility:visible!important
+}
+.hidden-mobile {
+    display:block;
+    visibility:visible!important
+}
+
+/* CSS para os icones PIKA */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-70 { font-size: 70px; }
 
 
 

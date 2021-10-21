@@ -21,10 +21,10 @@ $db = mysqli_select_db($cx, "conexao");
 	<div id="corpao">
 		<h2> O que você gostaria de fazer?</h2>
 		<br>
-		<a href="empresa.php"><button style="width: 50%;" !important>Vender</button></a>
+		<a href="empresa.php"><button style="width: 50%;">Vender</button></a>
 		<br>
 		<br>
-		<a href="user.php"><button style="width: 50%;" !important>comprar</button></a>
+		<a href="user.php"><button style="width: 50%;" >comprar</button></a>
 		<br><br><br><br>
 		<div class="container signin">
 			<?php include "modal.php"; ?>

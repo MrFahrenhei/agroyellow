@@ -13,7 +13,9 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
-
+a{
+  cursor:pointer;
+}
 button {
     background-color: #FF9F1C;
     color: black;
@@ -25,7 +27,7 @@ button {
   }
   
   button:hover {
-    opacity: 0.8;
+    background-color: #d48617;
   }
   
   .cancelbtn {

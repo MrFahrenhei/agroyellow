@@ -27,15 +27,15 @@ session_start();
       <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
         
       <label for="msgemail">E-mail:</label>
-      <input type="text" name="U_email" id="msgemail"  placeholder="example@example.com" required>      
+      <input type="email" name="U_email" id="msgemail"  placeholder="example@example.com" required>      
 
       <label for="telefone">Telefone</label>
-      <input type="text" name="U_telefone" id="telefone" placeholder="Digite seu telefone" required>
+      <input type="tel" name="U_telefone" id="telefone" placeholder="Digite seu telefone" required>
       
       <label for="senha">Senha</label>
       <input type="password" id="senha" placeholder="Digite sua senha" name="senha"required>
-      <label for="password">Confirmar senha </label>
-      <input type="senha" id="senha" placeholder="Confirme sua senha" name="confirma_senha" oninput="validaSenha(this)" required>
+      <label for="senha">Confirmar senha </label>
+      <input type="password" id="senha" placeholder="Confirme sua senha" name="confirma_senha" oninput="validaSenha(this)" required>
       <script>
 		    		function validaSenha (input){
 		    			if (input.value != document.getElementById('senha').value){

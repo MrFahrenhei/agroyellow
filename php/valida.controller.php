@@ -18,7 +18,7 @@ if($stm->rowCount()>0){
       <div id="mensagem">
         <style>
               body{
-                background: #242424;
+                background: #002848;
               }
               h1{
                 text-align: justify;
@@ -62,7 +62,7 @@ if($stm->rowCount()>0){
       <div id="mensagem">
         <style>
               body{
-                background: #242424;
+                background: #002848;
               }
               h1{
                 text-align: justify;
