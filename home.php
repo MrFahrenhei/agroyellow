@@ -24,11 +24,13 @@ if (!isset($_SESSION['nome'])) {
         <link rel="shortcut icon" href="src/icon.ico"/> 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script type="text/javascript" href="index.js" src="index.js"></script>
+
         <title>HOME</title>
     </head>
     </body>
       <header>
           <?php include "navbar.php"; ?>
+         
       </header>
       <div class="containerGeral mt-4">
         <div class="homeLinks row mt-1 justify-content-center">

@@ -13,7 +13,9 @@
             echo'<a href="perfil.php">'.$_SESSION['nome'].'</a>';
             echo'<a style="background-color:red; border-radius:  5px 0px; !important" href="logout.php">Sair</a>';}
           ?>
+
       </div>
+      <p> Na AGROYELLOW a negociação é feita entre comprador e vendedor. A gente só promove o encontro. </p>
   </nav>
   <nav id="menuMenor">
       <ul>

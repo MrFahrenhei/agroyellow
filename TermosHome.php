@@ -32,10 +32,11 @@
       3.	DAS DISPOSIÇÕES FINAIS 
       <br>
       &emsp;Ao declarar que concorda com o presente termo, o Titular consente com a coleta, armazenamento, tratamento, processamento e uso das informações enviadas e/ou transmitidas nos rigores estabelecidos neste Termo de Consentimento.
-
    </p>
+
 	</div>
-	<br>
+ <a type="submit"  id="submit" href="home.php" >voltar</a>
 </div>
+
 
 
