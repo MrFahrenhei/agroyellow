@@ -154,17 +154,35 @@ div.col-home a {
     font-weight:600;
     line-height:22px;
 }
+div.col-home  a:hover{
+    background-color:  #ff8306;
+    color: white;
+    border-radius: 6px;
+    
+}
+div.col-home  a.publicar.py-2:hover{
+    background-color:  #002848;
+    border-radius: 6px;
+}
+div.col-home  a.anuncios.py-2:hover{
+    background-color:  #002848;
+    border-radius: 6px;
+}
 /*CSS APENAS PARA DEIXAR OS BOTÕES UM AÇO*/
 div.col-home .anuncios {
     background-color:#55ad33;
     color:#fff;
     border:none;
+    border-radius: 6px;
 }
 div.col-home .publicar {
     background-color:#ff8306;
     color:#fff;
     border:none;
+    border-radius: 6px;
 }   
+
+
 div.col-home.b-m-none {
     border:none!important
 }

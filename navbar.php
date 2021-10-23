@@ -11,7 +11,7 @@
           <?php
             if ($_SESSION['nome'] == true) {
             echo'<a href="perfil.php">'.$_SESSION['nome'].'</a>';
-            echo'<a style="background-color:red; border-radius:5px; !important" href="logout.php">Sair</a>';}
+            echo'<a style="background-color:red; border-radius:  5px 0px; !important" href="logout.php">Sair</a>';}
           ?>
       </div>
   </nav>

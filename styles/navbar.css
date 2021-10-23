@@ -10,9 +10,9 @@ body{
   
 }
 #menuMaior .canto input[type=text] {
-  padding: 0.5% 50% 0.5% 1%;
+  padding: 0.8% 50% 0.5% 1%;
   border: none;
-  margin: 1% 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
   border-radius: 0px 5px;
 }
 #menuMaior a {
@@ -26,6 +26,7 @@ body{
 }
 #menuMaior a:hover {
   background-color: #FF9F1C;
+  border-radius: 0px 4px;
 }
 .canto{
   margin: 0% 0% 0% 0%;
@@ -62,9 +63,11 @@ body{
   text-decoration: none;
   color:white;
   padding: 5px 25px;
+  
 }
 #menuMenor a:hover{
   color:black;
+  
 }
 li:last-child{
   border-right: none;
@@ -74,7 +77,6 @@ img{
   width: 10%;
   padding: 0% 2% 0% 1%;
 }
-
 
 /*
 #navPrincipal{
