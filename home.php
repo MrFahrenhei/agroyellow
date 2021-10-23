@@ -87,7 +87,7 @@ if (!isset($_SESSION['nome'])) {
           <div class="col-home b-m-none">
           <a href="TermosHome.php" title="Chat">
             <span class="material-icons md-70">&#xef42;</span>     
-                  <b>Termos de Uso</b>
+                  <b>Termos<br>de<br>Uso</b>
                   
               </a>
           </div>
