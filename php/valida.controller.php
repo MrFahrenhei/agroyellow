@@ -2,10 +2,10 @@
   session_start();
   error_reporting(0);
 	include("conexao.class.php");
-  $nome = preg_replace('/[À-Úà-ú]/','', $_POST['nome']);
-  $senha =  addslashes ($_POST['senha']); 
-  $senhash = md5($senha);
-  $sql = "SELECT nome, senha FROM user WHERE nome= :nome and senha= :senha ";
+    $nome = preg_replace('/[À-Úà-ú]/','', $_POST['nome']);
+    $senha =  addslashes ($_POST['senha']); 
+    $senhash = md5($senha);
+      $sql = "SELECT nome, senha FROM user WHERE nome= :nome and senha= :senha ";
   $stm = Conexao::prepare($sql);
   $stm->bindParam(':nome', $nome);
   $stm->bindParam(':senha', $senhash);
