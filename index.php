@@ -24,7 +24,7 @@ $db = mysqli_select_db($cx, "conexao");
 		<a href="empresa.php"><button style="width: 50%;">Vender</button></a>
 		<br>
 		<br>
-		<a href="user.php"><button style="width: 50%;" >comprar</button></a>
+		<a href="user.php"><button style="width: 50%;" >Comprar</button></a>
 		<br><br><br><br>
 		<div class="container signin">
 			<?php include "modal.php"; ?>
