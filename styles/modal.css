@@ -16,6 +16,10 @@ input[type=text], input[type=password] {
 a{
   cursor:pointer;
 }
+input[type=button]{
+  border:none;
+  text-decoration: none;
+}
 button {
     background-color: #FF9F1C;
     color: black;
@@ -37,7 +41,13 @@ button {
     color: white;
   }
 
-  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 100% 100% 100% 0%;
+    padding: 100%; 
+    border: 1px solid #888;
+    width: 20%; 
+  }
   .container-modal {
     margin: 10% 0% 10% 14%;
     padding: 5% 10% 1% 10%;
@@ -65,12 +75,7 @@ button {
     padding: 1% 0% 0% 1%;
   }
   
-  .modal-content {
-    background-color: #fefefe;
-    margin: 100% 100% 100% 0%; 
-    border: 1px solid #888;
-    width: 80%; 
-  }
+ 
   
   .close {
     position: absolute;

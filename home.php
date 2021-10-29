@@ -87,9 +87,33 @@ if (!isset($_SESSION['nome'])) {
           </div>
 
           <div class="col-home b-m-none">
-          <a href="TermosHome.php" title="Chat">
+          <a href="TermosHome.php" title="termos">
             <span class="material-icons md-70">&#xef42;</span>     
-                  <b>Termos de Uso</b>
+                  <b>Termos<br>de<br>Uso</b>
+                  
+              </a>
+          </div>
+
+          <div class="col-home">
+          <a href="DicasSeg.php" title="dicas">
+            <span class="material-icons md-70">&#xe32a;</span>     
+                  <b>Dicas<br>de<br>Segurança</b>
+                  
+              </a>
+          </div>
+
+          <div class="col-home ">
+          <a href="DicasSeg.php" title="avalie">
+            <span class="material-icons md-70">&#xe8dc;</span>     
+                  <b>Avalie<br>nosso<br>conteúdo</b>
+                  
+              </a>
+          </div>
+
+          <div class="col-home b-m-none">
+          <a href="DicasSeg.php" title="Sobre">
+            <span class="material-icons md-70">&#xe887;</span>     
+                  <b>Sobre</b>
                   
               </a>
           </div>
