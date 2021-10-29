@@ -15,7 +15,7 @@
           ?>
 
       </div>
-      <p> Na AGROYELLOW a negociação é feita entre comprador e vendedor. A gente só promove o encontro. </p>
+      <p style="padding: 0% 0% 0% 5%; margin:0%; font-size:12px;"> Na <spam style="color:yellow;">AGROYELLOW</spam> a negociação é feita entre comprador e vendedor. A gente só promove o encontro. </p>
   </nav>
   <nav id="menuMenor">
       <ul>
