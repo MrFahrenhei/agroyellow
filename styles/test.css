@@ -61,3 +61,14 @@ a:hover{
   text-align: center;
   background-color:#f1f1f1;
 }
+input.email{
+  width: 723px;
+  background-color: #ddd;
+  outline: none;
+}
+
+input.telefone{
+  width: 723px;
+  background-color: #ddd;
+  outline: none;
+}

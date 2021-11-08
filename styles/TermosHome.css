@@ -27,7 +27,7 @@ body{
      
     }
     a#submit  {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-decoration: none;
         text-transform: uppercase;
         color: white;
@@ -39,5 +39,11 @@ body{
         cursor: pointer;
         background-color: #ffd300;
         
+      }
+      a.text{
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
       }
     
