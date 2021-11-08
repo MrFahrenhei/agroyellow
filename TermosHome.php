@@ -1,8 +1,32 @@
 
 <link rel="stylesheet" href="styles/TermosHome.css">
  
+<?php
+session_start();
+error_reporting(0);
+
+if (!isset($_SESSION['nome'])) {
+    header("Location: index.php");
+    exit;
+  }
+  
+  else{
+    if (!isset($_SESSION['senha'])) {
+      header("Location: index.php");
+      exit;
+    }
+  }
+
+?>
+
+<link rel="stylesheet" href="styles/payments.css">
+
+<?php 
+    include "navbar.php";
+
+?>
 <div class="modal-contentsHome">
-    <p> Termos De Uso  </p>
+    <a class="termos"> Termos De Uso  </a>
     <div class="qualquercoisa1">
 
       <p> <center>  CONSENTIMENTO PARA TRATAMENTO DE DADOS PESSOAIS LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS – LGPD  </center><br> <br>
