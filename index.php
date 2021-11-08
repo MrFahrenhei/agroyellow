@@ -14,11 +14,13 @@ $db = mysqli_select_db($cx, "conexao");
 	<link rel="stylesheet" href="styles/reset.css">
 	<link rel="stylesheet" href="styles/css.css">
 	<script type="text/javascript" src="index.js"></script>
+
 	<title>Login </title>
 </head>
 
 <body>
 	<div id="corpao">
+		
 		<h2> O que você gostaria de fazer?</h2>
 		<br>
 		<a href="empresa.php"><button style="width: 50%;">Vender</button></a>

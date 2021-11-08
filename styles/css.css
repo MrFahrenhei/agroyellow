@@ -4,7 +4,9 @@
     letter-spacing: 2px;
 }
 body{
+    background-image: url("src/Background.png");
     background: #002848;
+
 }
 #corpao{
     margin: 15% 15% 0% 15%;

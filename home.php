@@ -57,7 +57,7 @@ if (!isset($_SESSION['nome'])) {
           </div>
 
           <div class="col-home mt-3 b-m-none">
-              <a href="pagamento.php" title="Pagamentos">
+              <a href="Payments.php" title="Pagamentos">
               <span class="material-icons md-70">&#xef63;</span>     
                   <b>Pagamentos</b>
               </a>
