@@ -19,7 +19,7 @@
   </nav>
   <nav id="menuMenor">
       <ul>
-        <li><a href="#home">Home</a></li>
+        <li><a href="home.php">Home</a></li>
         <li><a href="#contact">Contato</a></li>
         <li><a href="#about">Sobre</a></li>
       </ul>
