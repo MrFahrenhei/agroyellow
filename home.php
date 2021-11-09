@@ -113,13 +113,16 @@ if (!isset($_SESSION['nome'])) {
           <div class="col-home b-m-none">
           <a href="DicasSeg.php" title="Sobre">
             <span class="material-icons md-70">&#xe887;</span>     
-                  <b>Sobre</b>
+                  <b>Sobre</b>  
                   
               </a>
           </div>
           
         </div>
       </div>
-
+    <?php 
+      include ""
+    
+    ?>
     </body>
 </html>

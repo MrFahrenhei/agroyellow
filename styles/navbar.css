@@ -7,7 +7,7 @@ body{
 #navPrincipal{
   text-decoration: none;
   background-color:#004f8f;
-  
+   
 }
 #menuMaior .canto input[type=text] {
   padding: 0.8% 50% 0.5% 1%;
@@ -79,11 +79,15 @@ img{
 }
 
 p{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   font-size: 20px;
   text-align: justify;
   padding: 0% 0% 1% 20%;
+
+}
+a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 /*

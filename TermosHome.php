@@ -1,11 +1,36 @@
 
 <link rel="stylesheet" href="styles/TermosHome.css">
  
+<?php
+session_start();
+error_reporting(0);
+
+if (!isset($_SESSION['nome'])) {
+    header("Location: index.php");
+    exit;
+  }
+  
+  else{
+    if (!isset($_SESSION['senha'])) {
+      header("Location: index.php");
+      exit;
+    }
+  }
+
+?>
+
+<link rel="stylesheet" href="styles/payments.css">
+
+<?php 
+    include "navbar.php";
+
+?>
 <div class="modal-contentsHome">
-    <p> Termos De Uso  </p>
+  <br>
+    <a class="termos"> Termos De Uso  </a>
     <div class="qualquercoisa1">
 
-      <p> <center>  CONSENTIMENTO PARA TRATAMENTO DE DADOS PESSOAIS LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS – LGPD  </center><br> <br>
+     <a class="text"> <center>  CONSENTIMENTO PARA TRATAMENTO DE DADOS PESSOAIS LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS – LGPD  </center><br> <br>
           
     &emsp;  Este documento visa registrar a manifestação livre, informada e inequívoca pela qual o Titular concorda com o tratamento de seus dados pessoais para finalidade específica, em conformidade com a Lei n.º 13.709 – Lei Geral de Proteção de Dados Pessoais (LGPD). 
     <br>
@@ -32,11 +57,11 @@
       3.	DAS DISPOSIÇÕES FINAIS 
       <br>
       &emsp;Ao declarar que concorda com o presente termo, o Titular consente com a coleta, armazenamento, tratamento, processamento e uso das informações enviadas e/ou transmitidas nos rigores estabelecidos neste Termo de Consentimento.
-   </p>
-
+</a>
+   </a>
 	</div>
  <a type="submit"  id="submit" href="home.php" >voltar</a>
-</div>
+
 
 
 

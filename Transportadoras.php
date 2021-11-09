@@ -16,12 +16,9 @@ if (!isset($_SESSION['nome'])) {
 
 ?>
 
-
-
 <link rel="stylesheet" href="styles/payments.css">
 
 <?php 
     include "navbar.php";
 
 ?>
-    
