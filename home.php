@@ -80,7 +80,7 @@ if (!isset($_SESSION['nome'])) {
           </div>
 
           <div class="col-home">
-          <a href="chatModal.php" title="Configuração">   
+          <a href="Config.php" title="Configuração">   
               <span class="material-icons md-70">&#xe8b8;</span>
               <b>Configuração</b>
               </a>

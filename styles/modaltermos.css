@@ -19,7 +19,6 @@
     padding: 20px;
     width: 85%; /* Could be more or less, depending on screen size */
   }
-   
   /* The Close Button */
   .closer {
     position: absolute;
@@ -43,8 +42,6 @@
   border-radius: 0px;
   cursor: pointer;
   background-color: #ffd300;
-
-
 }
 
   .qualquercoisa{
