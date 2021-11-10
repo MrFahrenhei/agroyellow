@@ -4,6 +4,7 @@ error_reporting(0);
 
 if (!isset($_SESSION['nome'])) {
     header("Location: index.php");
+    
     exit;
   }
   
@@ -13,6 +14,10 @@ if (!isset($_SESSION['nome'])) {
       exit;
     }
   }
+  if(isset($_SESSION['nome'])){
+    $email = $_POST['U_email'];
+  }
+  
 
 ?>
 <html>
@@ -49,9 +54,8 @@ if (!isset($_SESSION['nome'])) {
 
         <p class="info">Capeão profissional</p>
         <p class="info"><?php
-         if ($_SESSION['U_email'] == true) {
-            echo $_SESSION['U_email'];
-            }?></p>
+          echo $email;
+        ?></p>
 
         <div class="stats row">
             <div class="stat col-xs-4" >
