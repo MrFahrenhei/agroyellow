@@ -73,4 +73,18 @@ input.telefone{
   outline: none;
 }
 
-
+@media(max-width:480px) {
+  #navPrincipal{
+    width:auto;
+  }
+  #menuMenor{
+    display:none;
+  }
+  #menuMaior{
+    width:60%;
+    font-size:10px;  }
+  #menuMaior input[type="text"]{
+    width: 10%;
+  }
+  
+  }
