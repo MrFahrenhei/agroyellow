@@ -253,3 +253,11 @@ div.col-home.b-left {
 .position-relative {
      position:relative!important
 }
+
+@media screen and (max-width: 480px){
+    #corpao{ 
+        width: 95%;
+        margin: 50% 1% 10% 1% ;
+        padding:1% ;
+    }
+}

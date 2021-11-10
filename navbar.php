@@ -1,4 +1,5 @@
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="styles/navbar.css">
 
 <div id="navPrincipal" class="menuContainer fixed">
