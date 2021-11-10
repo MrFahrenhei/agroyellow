@@ -90,6 +90,31 @@ a{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+@media(max-width:480px) {
+  #navPrincipal{
+    width:auto;
+    
+    display: block;
+  }
+  #menuMenor{
+    display:none;
+  }
+  #menuMaior{
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-bottom: 10%;
+   }
+  #menuMaior input[type="text"]{
+    width: 10%;
+    position: static;
+  }
+  .canto{
+    font-size:10px; 
+    text-align: center; 
+  }
+  }
 /*
 #navPrincipal{
   width:100%;
