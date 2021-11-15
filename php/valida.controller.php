@@ -51,7 +51,7 @@ if($stm->rowCount()>0){
         $_SESSION['senha'] = $senha;
       }
   }else{
-    $sql = "SELECT nome, senha FROM empresa WHERE nome= :nome and senha= :senha ";
+    $sql = "SELECT nome, senha FROM empresa WHERE nome= :nome and senha= :senha and E_email: = E_email";
     $stm = Conexao::prepare($sql);
     $stm->bindParam(':nome', $nome);
     $stm->bindParam(':senha', $senhash);
