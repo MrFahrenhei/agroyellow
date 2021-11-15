@@ -43,7 +43,6 @@ if (!isset($_SESSION['nome'])) {
         <div class="left">
           <div class="photo-left">
             <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLQiqn6FdeCgAdYXD8NcSLnNedggPHLniR8djQaCow=s88-c-k-c0x00ffffff-no-rj" alt="Ainda tem nada aki filhão">
-            <div class="active"></div>
           </div>
 
         <h4 class="name"><?php
@@ -85,7 +84,7 @@ Elas gostam do meu som, elas acham que eu sou malcheiroso</p>
 
       </div>
 
-      <div class="right col-lg-8">
+      <div class="right">
         <ul class="nav">
           <li>Vendas</li>
           <li>Compras</li>
