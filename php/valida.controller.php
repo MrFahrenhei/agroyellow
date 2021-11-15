@@ -1,15 +1,7 @@
 <?php
   session_start();
   error_reporting(0);
-	include("conexao.class.php");
-    $nome = preg_replace('/[À-Úà-ú]/','', $_POST['nome']);
-    $senha =  addslashes ($_POST['senha']); 
-    $senhash = md5($senha);
-      $sql = "SELECT nome, senha FROM user WHERE nome= :nome and senha= :senha ";
-  $stm = Conexao::prepare($sql);
-  $stm->bindParam(':nome', $nome);
-  $stm->bindParam(':senha', $senhash);
-	$stm->execute();
+
   $mensagem = '
   <div id="mensagem">
     <style>
@@ -29,9 +21,27 @@
     </style>
       <h1>Bem Vindo<h1>
   </div>';
-if($stm->rowCount()>0){
-    
-    foreach ($stm as $key => $value) {
+
+	include("conexao.class.php");
+    $nome = preg_replace('/[À-Úà-ú]/','', $_POST['nome']);
+    $senha =  addslashes ($_POST['senha']); 
+    $senhash = md5($senha);
+
+
+  $sql = "SELECT ID, nome, senha FROM user WHERE nome= :nome and senha= :senha ";
+  $stm = Conexao::prepare($sql);
+  $stm->bindParam(':nome', $nome);
+  $stm->bindParam(':senha', $senhash);
+	$stm->execute();
+if($stm->rowCount()>0){		
+    $_SESSION ['nome'] = $_POST['nome'];
+    $_SESSION ['usuario'] = $_POST['usuario'];
+    $row=$stm->fetch(PDO::FETCH_ASSOC);
+    $_SESSION ['iduser'] = $row['id'];
+    $_SESSION ['senha'] = $senhash; 	
+    echo $mensagem;	
+    header("refresh: 1.5; ../home.php?signin=success");
+   /* foreach ($stm as $key => $value) {
       echo $mensagem;
     header("refresh: 1.5; ../home.php?signin=success");
 
@@ -49,15 +59,25 @@ if($stm->rowCount()>0){
         $_SESSION['U_email'] = $U_email;
         $_SESSION['U_telefone'] = $telefone;
         $_SESSION['senha'] = $senha;
-      }
+      } */
   }else{
-    $sql = "SELECT nome, senha FROM empresa WHERE nome= :nome and senha= :senha and E_email: = E_email";
+    $sql = "SELECT ID, nome, senha FROM empresa WHERE nome= :nome and senha= :senha ";
     $stm = Conexao::prepare($sql);
     $stm->bindParam(':nome', $nome);
     $stm->bindParam(':senha', $senhash);
     $stm->execute();
-    if($stm->rowCount()>0){
-        foreach ($stm as $key => $value) {
+
+      if ($stm->rowCount()> 0) { 		
+        $_SESSION ['nome'] = $_POST['nome'];
+        $_SESSION ['empresa'] = $_POST['empresa'];
+        $row=$stm->fetch(PDO::FETCH_ASSOC);
+        $_SESSION ['idempresa'] = $row['id'];
+        $_SESSION ['senha'] = $senhash; 	
+        echo $mensagem;	
+        header("refresh: 1.5; ../home.php?signin=success");
+    
+      
+      /*  foreach ($stm as $key => $value) {
         echo $mensagem;
         header("refresh: 1.5; ../home.php?signin=success");
 
@@ -75,8 +95,9 @@ if($stm->rowCount()>0){
           $_SESSION['E_email'] = $E_email;
           $_SESSION['E_telefone'] = $E_telefone;
           $_SESSION['senha'] = $senha;
-        }
+        }*/
       }
+
       else { 
           $erro_mensagem = 'Erro ao tentar logar, Verifique se as Informações digitadas estão corretas. <br>Erro [041]';
           echo '<div class="loader">'.$erro_mensagem.'</div>';

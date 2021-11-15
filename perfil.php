@@ -47,12 +47,7 @@ if (!isset($_SESSION['nome'])) {
             echo '<h4 class="name">'.$_SESSION['nome'].'</h1>';
             echo '<p class="info">Capeão profissional</p>'; 
             echo '<p class="info">Empresa</p>';  
-            echo '<p class="info">'.$_SESSION['email'].'</p>'; 
-            echo '<p class="info">'.$_SESSION['senha'].'</p>';           
-            while($row = mysqli_fetch_array($result)){
-              echo '<p class="info">'.$_SESSION['E_email'].'</p>'; 
-            }
-
+            echo '<p class="info">'. $_SESSION['E_email'].'</p>'; 
          }
              ?>
 
