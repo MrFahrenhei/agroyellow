@@ -271,9 +271,9 @@ div.col-home.b-left {
     }
 }
 img.SUINO{
-    width: 100%;  
-    background-position: center center;
-    background-repeat: no-repeat;
+    width: 100%; 
+    height: 100%;
+    
     
 }
 div.background{
@@ -281,7 +281,6 @@ div.background{
     z-index: -1;
     height: auto;
     width: 100%;
-    background-color: rgba(rgb(0,77,37) 0.4rem);
     opacity: 25%;
     object-fit: cover;
 ;
