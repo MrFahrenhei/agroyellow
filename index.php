@@ -19,8 +19,12 @@ $db = mysqli_select_db($cx, "conexao");
 </head>
 
 <body>
+	 
 	<img class="logo"src="src/ícone.png">
+	
+	<div class="background"> 
 	<img src="src/suino.jpg" alt="">
+	</div>
 	<div id="corpao">
 		
 		<h2> O que você gostaria de fazer?</h2>
