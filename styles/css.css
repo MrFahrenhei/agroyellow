@@ -23,12 +23,10 @@ body{
 }
 .container {
     position: relative;
-    
-   
     margin: 0% 15% 0% 15%;
     padding: 1% 10% 0% 10%;
     letter-spacing: 1px;
-    width: 300px;
+    width: 60%;
   }
 #header {
     margin:1% 5% 1% 0%;
@@ -232,9 +230,6 @@ div.col-home.b-left {
 .material-icons.md-48 { font-size: 48px; }
 .material-icons.md-70 { font-size: 70px; }
 
-
-
-
 /* CSS Formatação*/
 
 .flex-column {
@@ -277,10 +272,10 @@ div.col-home.b-left {
     }
 }
 img.SUINO{
-    position: absolute;
+    position: fixed;
     z-index: -1;
-    width: 99.9%;
-    height:  643px;
+    width: 100%;
+    height: auto;
 }
 div.background{
     position: absolute;
@@ -292,8 +287,8 @@ div.background{
 img.logo{
     position: absolute;
     z-index: 0;
-    width: 160px;
-    height: 160px;
+    width: 13%;
+    height: 25%;
     top: 20px;
     left: 574.5px;
 }
