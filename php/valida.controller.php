@@ -61,7 +61,7 @@ if($stm->rowCount()>0){
         $_SESSION['senha'] = $senha;
       } */
   }else{
-    $sql = "SELECT ID, nome, senha FROM empresa WHERE nome= :nome and senha= :senha ";
+    $sql = "SELECT * FROM empresa WHERE nome= :nome and senha= :senha";
     $stm = Conexao::prepare($sql);
     $stm->bindParam(':nome', $nome);
     $stm->bindParam(':senha', $senhash);
@@ -69,7 +69,7 @@ if($stm->rowCount()>0){
 
       if ($stm->rowCount()> 0) { 		
         $_SESSION ['nome'] = $_POST['nome'];
-        $_SESSION ['empresa'] = $_POST['empresa'];
+        $_SESSION ['E_email'] = $_POST['E_email'];
         $row=$stm->fetch(PDO::FETCH_ASSOC);
         $_SESSION ['idempresa'] = $row['id'];
         $_SESSION ['senha'] = $senhash; 	
