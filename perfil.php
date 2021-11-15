@@ -14,9 +14,8 @@ if (!isset($_SESSION['nome'])) {
       exit;
     }
   }
-  $result = mysqli_query("SELECT * FROM empresa WHERE ID:ID");
-  
-  include "php/conexao.class.php";
+
+
 ?>
 <html>
     <head>
@@ -48,8 +47,7 @@ if (!isset($_SESSION['nome'])) {
          if ($_SESSION['nome'] == true) {
             echo '<h4 class="name">'.$_SESSION['nome'].'</h1>';
             echo '<p class="info">Capeão profissional</p>'; 
-
-             
+            echo '<p class="info">Empresa</p>';            
             while($row = mysqli_fetch_array($result)){
               echo '<p class="info">'.$row['E_email'].'</p>'; 
             }

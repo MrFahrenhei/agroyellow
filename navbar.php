@@ -11,7 +11,7 @@
           <?php
             if ($_SESSION['nome'] == true) {
             echo'
-              <a href="perfil.php" style="
+            <a href="perfil.php" style="
               display: inline-block;
               width: 10em;
               overflow: hidden;
