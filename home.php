@@ -105,8 +105,14 @@ if (!isset($_SESSION['nome'])) {
           <div class="col-home ">
           <a href="DicasSeg.php" title="avalie">
             <span class="material-icons md-70">&#xe8dc;</span>     
-                  <b>Avalie<br>nosso<br>conteúdo</b>
-                  
+                  <b>Avalie<br>nosso<br>conteúdo</b>                 
+              </a>
+          </div>
+
+          <div class="col-home ">
+          <a href="DicasSeg.php" title="avalie">
+            <span class="material-icons md-70">&#xe8dc;</span>     
+                  <b>Sobre</b>                 
               </a>
           </div>
 
