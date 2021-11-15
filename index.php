@@ -15,16 +15,17 @@ $db = mysqli_select_db($cx, "conexao");
 	<link rel="stylesheet" href="styles/css.css">
 	<script type="text/javascript" src="index.js"></script>
 
-	<title>Login </title>
+	<title>Login</title>
 </head>
 
 <body>
 	 
-	<img class="logo"src="src/ícone.png">
+	
 	
 	<div class="background"> 
-	<img class="SUINO" src="src/suino.jpg" alt="">
+		<img class="SUINO" src="src/suino.jpg" alt="">
 	</div>
+	<img class="logo"src="src/ícone.png" style="margin-bottom: -12%;">
 	<div id="corpao">
 		
 		<h2> O que você gostaria de fazer?</h2>

@@ -272,31 +272,26 @@ div.col-home.b-left {
     }
 }
 img.SUINO{
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-    height: auto;
+    width: 100%;  
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 div.background{
     position: absolute;
     z-index: -1;
+    height: auto;
     width: 100%;
     background-color: rgba(rgb(0,77,37) 0.4rem);
     opacity: 25%;
+    object-fit: cover;
 }
-img.logo{
-    position: absolute;
-    z-index: 0;
+img.logo{  
     width: 13%;
-    height: 26%;
-    top: 4%;
-    left: 42%;
+    margin: 3% 0% 0% 43%;
 }
 h2.frase{
-    position: relative;
-    top: 240px;
-    margin-left: 320px;
-    font-size: 20px;
+    margin: 16% 0% 5% 28%;
+    font-size: 1.2em;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
