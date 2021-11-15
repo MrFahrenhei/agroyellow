@@ -25,7 +25,7 @@ hr {
 }
 
 .registerbtn {
-  background-color: #ffd300;
+  background-color: #c7a600;
   color: white;
   padding: 16px 20px;
   margin: 1% 0% 1% 0%;
@@ -62,14 +62,29 @@ a:hover{
   background-color:#f1f1f1;
 }
 input.email{
-  width: 723px;
-  background-color: #ddd;
+  width: 634.5px;
+  height: 10px;
+  background-color: #f1f1f1;
   outline: none;
+  border:1px solid #ccc ;
 }
 
 input.telefone{
-  width: 723px;
-  background-color: #ddd;
+  width: 634.5px;
+  height: 10px;
+  background-color: #f1f1f1;
   outline: none;
+  border: 1px solid #ccc;
 }
-
+input.senha{
+  width: 60px;
+  background-color: #f1f1f1;
+  outline: none;
+  border: 1px solid #ccc;
+}
+input.confsenha{
+  width: 60px;
+  background-color: #f1f1f1;
+  outline: none;
+  border: 1px solid #ccc;
+}
