@@ -23,7 +23,7 @@ $db = mysqli_select_db($cx, "conexao");
 	<img class="logo"src="src/ícone.png">
 	
 	<div class="background"> 
-	<img src="src/suino.jpg" alt="">
+	<img class="SUINO" src="src/suino.jpg" alt="">
 	</div>
 	<div id="corpao">
 		
@@ -39,7 +39,7 @@ $db = mysqli_select_db($cx, "conexao");
 		</div>
 		<br>
 	</div>
-
+	<h2 class="frase">‘‘SEMPRE EM BUSCA DE NOVAS TECNOLOGIAS PARA O CAMPO’’</h2>
 </body>
 
 </html>
