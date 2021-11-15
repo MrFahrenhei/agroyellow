@@ -51,7 +51,6 @@ session_start();
       <button type="submit" class="registerbtn">Registrar</button>
       
     </div>
-    
   </form> 
   <div class="container signin">
     <?php include "modal.php" ;?> 

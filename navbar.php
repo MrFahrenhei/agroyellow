@@ -5,7 +5,7 @@
 <div id="navPrincipal" class="menuContainer fixed">
   <nav id="menuMaior">
       <div class="canto">
-          <img src="src/logo.png"></img>
+          <img src="src/LogoAgroYellow.png"></img>
           <input type="text" placeholder="Procurar..">
           <a href="#home">Blog</a>
           <?php
@@ -21,7 +21,6 @@
             echo'<a href="#contact">Carrinho</a>';
             echo'<a style="background-color:red; border-radius:  5px 0px; margin-right:1%; !important" href="logout.php">Sair</a>';}
           ?>
-
       </div>
       <p style="padding: 0% 0% 0% 5%; margin:0%; font-size:12px;"><spam style="color:yellow;"></spam> </p>
   </nav>

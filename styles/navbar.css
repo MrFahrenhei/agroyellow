@@ -10,9 +10,9 @@ body{
    
 }
 #menuMaior .canto input[type=text] {
-  padding: 0.8% 50% 0.5% 1%;
+  padding: 0.8% 40% 0.8% 1%;
   border: none;
-  margin: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 2%;
   border-radius: 0px 5px;
 }
 #menuMaior a {
@@ -74,7 +74,7 @@ li:last-child{
 }
  
 img{
-  width: 10%;
+  width: 20%;
   padding: 0% 0% 0% 1%;
 }
 
