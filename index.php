@@ -23,7 +23,7 @@ $db = mysqli_select_db($cx, "conexao");
 	
 	
 	<div class="background"> 
-		<img class="SUINO" src="src/suino.jpg" alt="">
+		<img class="SUINO" src="src/Background-ajustado.png" alt="">
 	</div>
 	<img class="logo"src="src/ícone.png" >
 	<div id="corpao">

@@ -11,7 +11,6 @@ body{
 }
 #corpao{
     color: white;
-    position: relative;
     top: 220px;
     right: 15px;
     margin: 0% 35% 0% 35%;
@@ -289,10 +288,10 @@ div.background{
 }
 img.logo{  
     width: 13%;
-    margin: 3% 0% 0% 43%;
+    margin: 3% 0% 1% 43%;
 }
 h2.frase{
-    margin: 16% 0% 5% 28%;
+    margin: 5% 0% 5% 28%;
     font-size: 1.2em;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
