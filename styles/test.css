@@ -8,7 +8,7 @@
 input[id=nome], input[id=cnpj], input[id=msgemail], input[id=senha], input[id=telefone], input[id=cpf] {
   width: 100%;
   padding: 15px;
-  margin: 5px 0 22px 0;
+  margin: 5px 0 10px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
@@ -21,7 +21,7 @@ input[id=nome]:focus, input[id=cnpj]:focus, input[id=msgemail]:focus, input[id=s
 
 hr {
   border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .registerbtn {

@@ -20,22 +20,22 @@ session_start();
         <p>Preencha abaixo para se registrar</p>
       <hr>
   
-      <label for="nome">Nome</label>
+      <label for="nome">NOME</label>
       <input  id="nome" name="nome" type="text" placeholder="Digite seu nome" required>
       
       <label for="cpf">CPF</label>
       <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
         
-      <label for="msgemail">E-mail:</label>
-      <input type="email" name="U_email" id="msgemail"  placeholder="example@example.com" required>      
+      <label for="msgemail">E-MAIL:</label>
+      <input type="email" name="U_email" id="msgemail" class="email" placeholder="example@example.com" required>      
 
-      <label for="telefone">Telefone</label>
-      <input type="tel" name="U_telefone" id="telefone" placeholder="Digite seu telefone" required>
+      <label for="telefone">TELEFONE</label>
+      <input type="tel" name="U_telefone" id="telefone" class="telefone" placeholder="Digite seu telefone" required>
       
-      <label for="senha">Senha</label>
-      <input type="password" id="senha" placeholder="Digite sua senha" name="senha"required>
-      <label for="senha">Confirmar senha </label>
-      <input type="password" id="senha" placeholder="Confirme sua senha" name="confirma_senha" oninput="validaSenha(this)" required>
+      <label for="senha">SENHA</label>
+      <input type="password" id="senha" class="senha" placeholder="Digite sua senha" name="senha"required>
+      <label for="senha">CONFIRMAR SENHA</label>
+      <input type="password" id="senha" class="confsenha" placeholder="Confirme sua senha" name="confirma_senha" oninput="validaSenha(this)" required>
       <script>
 		    		function validaSenha (input){
 		    			if (input.value != document.getElementById('senha').value){
