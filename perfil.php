@@ -42,12 +42,13 @@ if (!isset($_SESSION['nome'])) {
           </div>
 
         <?php
+        $novoemail = $_SESSION['E_email'];
         //echo '<p class="info">'.$row['email'].'</p>'; 
          if ($_SESSION['nome'] == true) {
             echo '<h4 class="name">'.$_SESSION['nome'].'</h1>';
             echo '<p class="info">Capeão profissional</p>'; 
             echo '<p class="info">Empresa</p>';  
-            echo '<p class="info">'. $_SESSION['E_email'].'</p>'; 
+            echo '<p class="info">'. $novoemail.'</p>'; 
          }
              ?>
 

@@ -275,6 +275,7 @@ img.SUINO{
     width: 100%;  
     background-position: center center;
     background-repeat: no-repeat;
+    
 }
 div.background{
     position: absolute;
@@ -284,6 +285,7 @@ div.background{
     background-color: rgba(rgb(0,77,37) 0.4rem);
     opacity: 25%;
     object-fit: cover;
+;
 }
 img.logo{  
     width: 13%;
