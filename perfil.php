@@ -4,7 +4,6 @@ error_reporting(0);
 
 if (!isset($_SESSION['nome'])) {
     header("Location: index.php");
-    
     exit;
   }
   
