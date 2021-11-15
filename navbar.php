@@ -10,7 +10,8 @@
           <a href="#home">Blog</a>
           <?php
             if ($_SESSION['nome'] == true) {
-            echo'<a href="perfil.php" style="
+            echo'
+              <a href="perfil.php" style="
               display: inline-block;
               width: 10em;
               overflow: hidden;
