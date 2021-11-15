@@ -19,7 +19,8 @@ $db = mysqli_select_db($cx, "conexao");
 </head>
 
 <body>
-	<img src="src/Background.png" alt="">
+	<img class="logo"src="src/ícone.png">
+	<img src="src/suino.jpg" alt="">
 	<div id="corpao">
 		
 		<h2> O que você gostaria de fazer?</h2>

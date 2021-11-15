@@ -11,27 +11,35 @@ body{
 }
 #corpao{
     position: relative;
-    top: 250px;
-    margin: 0% 25% 0% 25%;
-    padding: 1% 5% 0% 5%;
+    top: 220px;
+    right: 15px;
+    margin: 0% 35% 0% 35%;
+    padding: 1% 0% 0% 0%;
     text-align: center;
-    background-color:#4400ff;
+    background-color:#239C52;
     letter-spacing: 1px;
+    border-radius: 10px;
 }
 .container {
     position: relative;
     bottom: 20px;
-    left: 20px;
+    right: 20px;
     margin: 0% 15% 0% 15%;
     padding: 1% 10% 0% 10%;
     letter-spacing: 1px;
+    width: 300px;
   }
 #header {
     margin:1% 5% 1% 0%;
     padding: 1% 0% 1% 1%;
     text-align: center;
 }
-  
+h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 label, p, a{
     text-align: justify;
     letter-spacing: 1px;
@@ -272,4 +280,12 @@ img{
     z-index: -1;
     width: 99.9%;
     height:  643px;
+}
+img.logo{
+    position: absolute;
+    z-index: 1;
+    width: 180px;
+    height: 180px;
+    top: 20px;
+    left: 574.5px;
 }
