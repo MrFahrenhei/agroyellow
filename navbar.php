@@ -10,7 +10,13 @@
           <a href="#home">Blog</a>
           <?php
             if ($_SESSION['nome'] == true) {
-            echo'<a href="perfil.php">'.$_SESSION['nome'].'</a>';
+            echo'<a href="perfil.php" style="
+              display: inline-block;
+              width: 10em;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            ">'.$_SESSION['nome'].'</a>';
             echo'<a href="#contact">Carrinho</a>';
             echo'<a style="background-color:red; border-radius:  5px 0px; margin-right:1%; !important" href="logout.php">Sair</a>';}
           ?>
