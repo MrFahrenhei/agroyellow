@@ -21,21 +21,21 @@ session_start();
       <hr>
   
       <label for="nome">NOME</label>
-      <input  id="nome" name="nome" type="text" placeholder="Digite seu nome" required>
+      <input  id="nome" name="nome" type="text" placeholder="DIGITE SEU NOME..." required>
       
       <label for="cpf">CPF</label>
-      <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
+      <input type="text" name="cpf" id="cpf" placeholder="DIGITE SEU CPF..." required>
         
       <label for="msgemail">E-MAIL:</label>
       <input type="email" name="U_email" id="msgemail" class="email" placeholder="example@example.com" required>      
 
       <label for="telefone">TELEFONE</label>
-      <input type="tel" name="U_telefone" id="telefone" class="telefone" placeholder="Digite seu telefone" required>
+      <input type="tel" name="U_telefone" id="telefone" class="telefone" placeholder="DIGITE SEU TELEFONE..." required>
       
       <label for="senha">SENHA</label>
-      <input type="password" id="senha" class="senha" placeholder="Digite sua senha" name="senha"required>
+      <input type="password" id="senha" class="senha" placeholder="DIGITE SUA SENHA..." name="senha"required>
       <label for="senha">CONFIRMAR SENHA</label>
-      <input type="password" id="senha" class="confsenha" placeholder="Confirme sua senha" name="confirma_senha" oninput="validaSenha(this)" required>
+      <input type="password" id="senha" class="confsenha" placeholder="CONFIRME SUA SENHA..." name="confirma_senha" oninput="validaSenha(this)" required>
       <script>
 		    		function validaSenha (input){
 		    			if (input.value != document.getElementById('senha').value){

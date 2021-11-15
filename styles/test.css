@@ -12,16 +12,19 @@ input[id=nome], input[id=cnpj], input[id=msgemail], input[id=senha], input[id=te
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 input[id=nome]:focus, input[id=cnpj]:focus, input[id=msgemail]:focus, input[id=senha]:focus, input[id=telefone]:focus, input[id=cpf]:focus {
   background-color: #ddd;
   outline: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 10px;
+  
 }
 
 .registerbtn {
@@ -42,6 +45,7 @@ hr {
 a {
   color: dodgerblue;
   text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a:hover{
   color:blueviolet;
@@ -60,6 +64,7 @@ a:hover{
   padding: 1% 10% 0% 10%;
   text-align: center;
   background-color:#f1f1f1;
+  
 }
 input.email{
   width: 634.5px;
@@ -87,4 +92,12 @@ input.confsenha{
   background-color: #f1f1f1;
   outline: none;
   border: 1px solid #ccc;
+}
+label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }

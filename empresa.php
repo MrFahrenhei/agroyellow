@@ -20,23 +20,22 @@ $db = mysqli_select_db($cx, "conexao");
 			<h1>Registre sua Empresa</h1>
 			<p>Preencha abaixo para registrar sua empresa</p>
 			<hr>
-
 			<label for="nome">NOME DA EMPRESA</label>
-			<input id="nome" name="nome" type="text" placeholder="Digite seu nome" required>
+			<input id="nome" name="nome" type="text" placeholder="DIGITE SEU NOME..." required>
 
 			<label for="cnpj">CNPJ</label>
-			<input type="text" name="cnpj" id="cnpj" onkeyup="FormataCnpj(this,event)" ng-model="cadastro.cnpj" placeholder="Digite seu CNPJ" required>
+			<input type="text" name="cnpj" id="cnpj" onkeyup="FormataCnpj(this,event)" ng-model="cadastro.cnpj" placeholder="DIGITE SEU CNPJ..." required>
 
 			<label for="msgemail">E-MAIL:</label>
 			<input type="email" name="E_email" id="msgemail" class="email" placeholder="exemplo@dominio.com" required>
 
 			<label for="telefone">TELEFONE</label>
-			<input type="tel" name="E_telefone" id="telefone" class="telefone" placeholder="Digite seu telefone" required>
+			<input type="tel" name="E_telefone" id="telefone" class="telefone"  placeholder="DIGITE SEU TELEFONE..." required>
 
 			<label for="E_senha">SENHA</label>
-			<input type="password" class="senha" id="E_senha" placeholder="Digite sua senha" name="senha" required>
+			<input type="password" class="senha" id="E_senha" placeholder="DIGITE SUA SENHA..." name="senha" required>
 			<label for="E_senha">CONFIRMAR SENHA </label>
-			<input type="password" id="E_senha" class="confsenha" placeholder="Confirme sua senha" name="confirma_senha" oninput="validaSenha(this)" required>
+			<input type="password" id="E_senha" class="confsenha" placeholder="CONFIRME SUA SENHA..." name="confirma_senha" oninput="validaSenha(this)" required>
 	
 			<script>
 				function validaSenha(input) {
