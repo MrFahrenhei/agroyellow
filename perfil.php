@@ -14,11 +14,9 @@ if (!isset($_SESSION['nome'])) {
       exit;
     }
   }
-  if(isset($_SESSION['nome'])){
-    $email = $_POST['U_email'];
-  }
+  $result = mysqli_query("SELECT * FROM empresa WHERE ID:ID");
   
-
+  include "php/conexao.class.php";
 ?>
 <html>
     <head>
@@ -45,16 +43,22 @@ if (!isset($_SESSION['nome'])) {
             <img class="photo" src="https://yt3.ggpht.com/ytc/AKedOLQiqn6FdeCgAdYXD8NcSLnNedggPHLniR8djQaCow=s88-c-k-c0x00ffffff-no-rj" alt="Ainda tem nada aki filhão">
           </div>
 
-        <h4 class="name"><?php
+        <?php
+        //echo '<p class="info">'.$row['email'].'</p>'; 
          if ($_SESSION['nome'] == true) {
-            echo $_SESSION['nome'];
-            }?>
-        </h4>
+            echo '<h4 class="name">'.$_SESSION['nome'].'</h1>';
+            echo '<p class="info">Capeão profissional</p>'; 
 
-        <p class="info">Capeão profissional</p>
-        <p class="info"><?php
-          echo $email;
-        ?></p>
+             
+            while($row = mysqli_fetch_array($result)){
+              echo '<p class="info">'.$row['E_email'].'</p>'; 
+            }
+
+         }
+             ?>
+
+        
+       
 
         <div class="stats row">
             <div class="stat col-xs-4" >
