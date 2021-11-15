@@ -23,8 +23,8 @@ body{
 }
 .container {
     position: relative;
-    bottom: 20px;
-    right: 20px;
+    
+   
     margin: 0% 15% 0% 15%;
     padding: 1% 10% 0% 10%;
     letter-spacing: 1px;
