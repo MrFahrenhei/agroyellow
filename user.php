@@ -28,13 +28,13 @@ session_start();
       <input id="nome" name="nome" type="text" placeholder="DIGITE SEU NOME..." required>
 
       <label for="cpf">CPF</label>
-      <input type="text" name="cpf" id="cpf" placeholder="DIGITE SEU CPF..." required>
+      <input type="text" name="cpf" id="cpf" placeholder="DIGITE SEU CPF..." size="18" maxlength="18" required>
 
       <label for="msgemail">E-MAIL:</label>
       <input type="text" name="U_email" id="msgemail" class="email" placeholder="example@example.com" required>
 
       <label for="telefone">TELEFONE</label>
-      <input type="text" name="U_telefone" id="telefone" class="telefone" placeholder="DIGITE SEU TELEFONE..." required>
+      <input type="text" name="U_telefone" size="15" maxlength="15"id="telefone" class="telefone" placeholder="DIGITE SEU TELEFONE..." required>
 
       <label for="senha">SENHA</label>
       <input type="password" id="senha" class="senha" placeholder="DIGITE SUA SENHA..." name="senha" required>
@@ -55,6 +55,13 @@ session_start();
             reverse: true
           });
         });
+
+        $("#nome").on("input", function(){
+     var regexp = /[^a-zA-Z]/g;
+    if(this.value.match(regexp)){
+    $(this).val(this.value.replace(regexp,''));
+  }
+});
       </script>
       <?php include "modalterms.php"; ?>
       <hr>

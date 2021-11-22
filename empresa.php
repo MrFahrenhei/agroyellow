@@ -12,7 +12,8 @@ $db = mysqli_select_db($cx, "conexao");
 	<link rel="shortcut icon" href="src/icon.ico" />
 	<link rel="stylesheet" href="styles/test.css">
 	<script type="text/javascript" href="index.js" src="index.js"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.11.2/jquery.mask.js"></script>
 	<title>Registrar sua Empresa</title>
 </head>
 
@@ -32,7 +33,7 @@ $db = mysqli_select_db($cx, "conexao");
 			<input type="text" name="E_email" id="msgemail" class="email" placeholder="exemplo@dominio.com" required>
 
 			<label for="telefone">TELEFONE</label>
-			<input type="text" name="E_telefone" id="telefone" class="telefone" placeholder="DIGITE SEU TELEFONE..." required>
+			<input type="text" name="E_telefone" size="15" maxlength="15" id="telefone" class="telefone" placeholder="DIGITE SEU TELEFONE..." required>
 
 			<label for="E_senha">SENHA</label>
 			<input type="password" class="senha" id="E_senha" placeholder="DIGITE SUA SENHA..." name="senha" required>
@@ -47,6 +48,13 @@ $db = mysqli_select_db($cx, "conexao");
 						input.setCustomValidity('');
 					}
 				}
+
+				$("#nome").on("input", function(){
+     var regexp = /[^a-zA-Z]/g;
+    if(this.value.match(regexp)){
+    $(this).val(this.value.replace(regexp,''));
+  }
+});
 			</script>
 			<?php include "modalterms.php"; ?>
 			<hr>
