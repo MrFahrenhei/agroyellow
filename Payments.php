@@ -25,3 +25,4 @@ if (!isset($_SESSION['nome'])) {
 
 ?>
     
+    <?php include "footer.php"; ?>

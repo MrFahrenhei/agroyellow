@@ -93,5 +93,6 @@ informações importantes que são preenchidas aqui</p>
 
     </main>
     </div>
+    <?php include "footer.php"; ?>
     </body>
 </html>

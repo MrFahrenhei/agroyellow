@@ -25,5 +25,7 @@ if (!isset($_SESSION['nome'])) {
 
 ?>
 <h1>Histórico de compras</h2>
+
+<?php include "footer.php"; ?>
 </body>
 </html>

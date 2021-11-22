@@ -25,5 +25,6 @@ if (!isset($_SESSION['nome'])) {
 
 ?>
 <h1>Transportadora</h2>
+<?php include "footer.php"; ?>
 </body>
 </html>
