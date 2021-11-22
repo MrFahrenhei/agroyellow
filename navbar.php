@@ -8,7 +8,7 @@
       <div class="canto">
           <img src="src/LogoAgroYellow.png"></img>
           <input type="text" placeholder="Procurar..">
-          <a href="#home">Blog</a>
+          <a href="blog.php">Blog</a>
           <?php
             if ($_SESSION['nome'] == true) {
             echo'
