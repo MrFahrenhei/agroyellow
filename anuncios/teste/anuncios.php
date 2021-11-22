@@ -1,15 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
 
 include("conexeção1.php");
 
-$sql = "INSERT INTO Compra (Produto, Quantidade, Preço)
-VALUES ('Suino', 100, 1000.00)";
+$sql = "SELECT ID, Titulo, Descriçao, Valor, Quantidade, Peso, Frete FROM Compra";
+$result = $conn->query($sql);
 
-if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
+if ($result->num_rows > 0) {
+	while($row = $result->fetch_assoc()) {
+		echo
+		"<br>
+		ID: ". $row["ID"]."
+		- Titulo: ". $row["Titulo"]."
+		- Descriçao: ". $row["Descriçao"]."
+		- Valor: ". $row["Valor"]."
+		- Quantidade: ". $row["Quantidade"]."
+		- Peso: ". $row["Peso"]."
+		- Frete: ". $row["Frete"].
+		"<br>";
+	}
 } else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
+	echo "0 results";
 }
 
 $conn->close();
 ?>
+
+</body>
+</html>

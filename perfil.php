@@ -69,10 +69,10 @@ if (!isset($_SESSION['nome'])) {
             </div>
         </div>
 
-        <p class="desc">Eu gosto delas grandes, eu gosto delas robustas<br>
-Eu gosto delas grandes, eu gosto delas fofinhas<br>
-Eu gosto delas por perto, com algo a mais<br>
-Elas gostam do meu som, elas acham que eu sou malcheiroso</p>
+        <p class="desc">informações importantes que são preenchidas aqui<br>
+informações importantes que são preenchidas aqui<br>
+informações importantes que são preenchidas aqui<br>
+informações importantes que são preenchidas aqui</p>
         <div class="social">
           <i class="fa fa-facebook-square" aria-hidden="true"></i>
           <i class="fa fa-twitter-square" aria-hidden="true"></i>
