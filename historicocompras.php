@@ -15,11 +15,15 @@ if (!isset($_SESSION['nome'])) {
   }
 
 ?>
-
+<html>
+<head>
 <link rel="stylesheet" href="styles/payments.css">
-
+</head>
+<body>
 <?php 
     include "navbar.php";
 
 ?>
-    
+<h1>Histórico de compras</h2>
+</body>
+</html>
