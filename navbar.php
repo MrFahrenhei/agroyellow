@@ -1,3 +1,23 @@
+<?php
+session_start();
+error_reporting(0);
+
+if (!isset($_SESSION['nome'])) {
+    header("Location: index.php");
+    exit;
+  }
+  
+  else{
+    if (!isset($_SESSION['senha'])) {
+      header("Location: index.php");
+      exit;
+    }
+  }
+
+?>
+
+
+
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">

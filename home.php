@@ -36,7 +36,7 @@ if (!isset($_SESSION['nome'])) {
         <div class="homeLinks row mt-1 justify-content-center">
 
           <div class="itensHome col-home mt-3 b-none px-1">
-            <a class="anuncios py-2" href="meusanuncios.php" title="Verificar o que eu já publiquei">
+            <a class="anuncios py-2" href="Anuncios.php" title="Verificar o que eu já publiquei">
               <img alt="Icone dos anuncios" src="https://cdn.mfrural.com.br/Content/layout_novo/img/home_icons/anuncios_opt.png" width="75" height="45">
               <b>Anúncios</b>
             </a>
