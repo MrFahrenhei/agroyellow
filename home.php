@@ -126,9 +126,6 @@ if (!isset($_SESSION['nome'])) {
           
         </div>
       </div>
-    <?php 
-      include ""
-    
-    ?>
+      <?php include "footer.php"; ?>
     </body>
 </html>
