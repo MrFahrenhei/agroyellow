@@ -27,10 +27,10 @@ $db = mysqli_select_db($cx, "conexao");
 			<input type="text" name="cnpj" id="cnpj" onkeyup="FormataCnpj(this,event)" ng-model="cadastro.cnpj" placeholder="DIGITE SEU CNPJ..." required>
 
 			<label for="msgemail">E-MAIL:</label>
-			<input type="email" name="E_email" id="msgemail" class="email" placeholder="exemplo@dominio.com" required>
+			<input type="text" name="E_email" id="msgemail" class="email" placeholder="exemplo@dominio.com" required>
 
 			<label for="telefone">TELEFONE</label>
-			<input type="tel" name="E_telefone" id="telefone" class="telefone"  placeholder="DIGITE SEU TELEFONE..." required>
+			<input type="text" name="E_telefone" id="telefone" class="telefone"  placeholder="DIGITE SEU TELEFONE..." required>
 
 			<label for="E_senha">SENHA</label>
 			<input type="password" class="senha" id="E_senha" placeholder="DIGITE SUA SENHA..." name="senha" required>

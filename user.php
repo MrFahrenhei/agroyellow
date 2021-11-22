@@ -27,10 +27,10 @@ session_start();
       <input type="text" name="cpf" id="cpf" placeholder="DIGITE SEU CPF..." required>
         
       <label for="msgemail">E-MAIL:</label>
-      <input type="email" name="U_email" id="msgemail" class="email" placeholder="example@example.com" required>      
+      <input type="text" name="U_email" id="msgemail" class="email" placeholder="example@example.com" required>      
 
       <label for="telefone">TELEFONE</label>
-      <input type="tel" name="U_telefone" id="telefone" class="telefone" placeholder="DIGITE SEU TELEFONE..." required>
+      <input type="text" name="U_telefone" id="telefone" class="telefone" placeholder="DIGITE SEU TELEFONE..." required>
       
       <label for="senha">SENHA</label>
       <input type="password" id="senha" class="senha" placeholder="DIGITE SUA SENHA..." name="senha"required>
